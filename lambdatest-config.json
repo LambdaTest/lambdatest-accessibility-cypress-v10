@@ -1,0 +1,35 @@
+{
+   "lambdatest_auth": {
+      "username": "",
+      "access_key": ""
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "Cypress 10",
+      "parallels": 1,
+      "specs": "cypress/e2e/1-getting-started/*.cy.js",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "10.0.0"
+      },
+      "accessibility" : true,                 
+      "accessibility.wcagVersion": "wcag21a", 
+      "accessibility.bestPractice": false,    
+      "accessibility.needsReview": true
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
