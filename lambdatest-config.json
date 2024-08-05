@@ -21,7 +21,8 @@
       "network": false,
       "headless": false,
       "npm_dependencies": {
-         "cypress": "10.0.0"
+         "cypress": "10.0.0",
+         "lambdatest-cypress-cli": "^3.0.30"
       },
       "accessibility" : true,                 
       "accessibility.wcagVersion": "wcag21a", 
